@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "workflows-init" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "workflows-init" ]
 
   workflow_dispatch:
 
