@@ -7,9 +7,9 @@ on:
     branches: [ master, workflow-init ]
 
 jobs:
-  build:
+  integration-tests:
     runs-on: ubuntu-latest
-
     steps:
-      - name: algo
-        run: echo "The"
+      - name: Hello world
+        run: echo "Hello world"
+
